@@ -12,6 +12,7 @@ end
 def get_contestant_name(data, occupation)
   data.each do |season, contestant_hash|
     if contestant_hash["occupation"] == occupation
+      binding.pry
       return contestant_hash["name"]
     end
   end
