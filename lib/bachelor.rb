@@ -48,5 +48,5 @@ def get_average_age_for_season(data, season)
     age << deets["age"]
   end
   age.each{|string| age_as_numbers << string.to_i}
-  binding.pry
+  return age_as_numbers.sum / age_as_numbers.size
 end
