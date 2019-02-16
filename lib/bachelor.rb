@@ -17,6 +17,7 @@ def get_contestant_name(data, occupation)
         return season["name"]
       end
     end
+    end
   end
 end
 
