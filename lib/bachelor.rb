@@ -10,15 +10,8 @@ def get_first_name_of_season_winner(data, season)
 end
 
 def get_contestant_name(data, occupation)
-  data.each do |big_hash|
-    big_hash.each do |x, y|
-
-      season.each do |contestant_hash|
-      if season["occupation"] == occupation
-        return season["name"]
-      end
-    end
-    end
+  data.each do |season, contestant_hash|
+  
   end
 end
 
