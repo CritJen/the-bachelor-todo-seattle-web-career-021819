@@ -46,5 +46,5 @@ def get_average_age_for_season(data, season)
   data[season].each do |deets|
     age << deets["age"]
   end
-  return age.sum / values.size.to_f
+  return age.sum / age.size
 end
