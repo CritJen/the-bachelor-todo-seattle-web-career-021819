@@ -11,8 +11,7 @@ end
 
 def get_contestant_name(data, occupation)
   data.each do |big_hash|
-    big_hash.each do |season|
-      binding.pry
+    big_hash.each do |x|
       season.each do |contestant_hash|
       if season["occupation"] == occupation
         return season["name"]
